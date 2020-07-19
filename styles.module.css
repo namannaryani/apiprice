@@ -1,0 +1,201 @@
+
+             
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    
+    color: black;
+   
+  }
+
+
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li {
+    text-align: center;
+}
+
+
+  
+
+.grid {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+    grid-gap: 10px;
+    border: 2px;
+    border-color: black;
+    padding: 10px;
+  }
+
+
+
+  
+
+
+
+.shadow {
+    
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+
+.bor {
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    border-color: black;
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.option1 {
+    border-style: solid;
+    position: relative;
+    word-wrap: break-word;
+    border-width: 1px 1px 0px 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(255, 77, 0);
+    padding: 10px 0px;
+}
+
+.option2 {
+    border-style: solid;
+    
+    word-wrap: break-word;
+    border-width: 1px 1px 0px 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: 900;
+    color: grey;
+    padding: 10px 0px;
+}
+
+.option21 {
+    text-align: left;
+    border-bottom: rgb(180, 174, 174);
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    
+    word-wrap: break-word;
+    padding: 10px 0px;
+}
+
+.option3 {
+    background-color: rgb(255, 77, 0);
+    color: white;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    padding: 10px 0px;
+    box-shadow: 2px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    align-content: center;
+    font-weight: 900;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.but {
+    display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  border-style: solid;
+    position: relative;
+    word-wrap: break-word;
+    border-width: 1px 1px 0px 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px 0px;
+}
+
+.option31 {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    padding: 10px 0px;
+    box-shadow: 2px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    align-content: center;
+    font-weight: 900;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.optioneach {
+    border-style: solid;
+    word-wrap: break-word;
+    border-width: 1px 1px 0px 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    padding: 10px 0px;
+}
+
+.optionempty {
+
+    border-style: solid;
+    word-wrap: break-word;
+    border-width: 1px 1px 0px 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    padding: 20px 0px;
+}
+
+.optionend {
+    border-style: solid;
+    word-wrap: break-word;
+    border-width: 1px 1px 0px 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    padding: 10px 0px;
+    
+}
+
+.downbutton {
+    margin: 10px 0px 40px 0px;
+    background-color: rgb(255, 77, 0);
+    color: white;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    padding: 10px 0px;
+    box-shadow: 2px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    align-content: center;
+    font-weight: 900;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lastrow {
+    display: flex;
+  justify-content: center;
+  
+}
+
